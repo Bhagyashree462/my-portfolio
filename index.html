@@ -78,7 +78,17 @@ h1,h2,h3{font-family:var(--fd);font-weight:600;letter-spacing:-.01em;line-height
 
 /* nav */
 
-.nav{position:fixed;inset:0 0 auto;height:var(--nav);z-index:1000;background:rgba(10,14,22,.75);backdrop-filter:blur(14px);border-bottom:1px solid transparent;transition:border-color .3s,*background* .3s}
+
+.nav {
+  position: fixed;
+  inset: 0 0 auto;
+  height: var(--nav);
+  z-index: 1000;
+  background: rgba(10,14,22,.75);
+  backdrop-filter: blur(14px);
+  border-bottom: 1px solid transparent;
+  transition: border-color .3s, background .3s;
+}
 
 .nav.sc{border-color:var(--bd);background:rgba(10,14,22,.94)}
 
